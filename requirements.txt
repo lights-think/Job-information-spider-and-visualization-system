@@ -1,0 +1,5 @@
+Requests==2.20.0
+csvtotable==2.1.1
+echarts-themes-pypkg==0.0.3
+echarts-countries-pypkg==0.1.4
+echarts-china-provinces-pypkg==0.0.2
