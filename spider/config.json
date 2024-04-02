@@ -1,0 +1,50 @@
+{
+    "字节跳动": {
+        "url": "https://jobs.bytedance.com/campus/position?keywords=&category=&location=&project=&type=3&job_hot_flag=&current=1&limit=10&functionCategory=&tag=&spread=C9C7AB4",
+        "selectors": {
+            "job_selector": "//div[@class='positionItem__1giWi positionItem']",
+            "job_title": ".//span[@class='positionItem-title-text']",
+            "job_location": ".//div[@class='subTitle__3sRa3 positionItem-subTitle']/span[1]",
+            "job_type": ".//div[@class='subTitle__3sRa3 positionItem-subTitle']/span[contains(@class, 'infoText__aS5hY')]",
+            "job_department": ".//span[contains(@class, 'content__3ZUKJ')]",
+            "job_content": ".//div[@class='jobDesc__3ZDgU positionItem-jobDesc']",
+            "next_button": "//li[contains(@class, 'atsx-pagination-next') and not(contains(@class, 'atsx-pagination-disabled'))]/a"
+        }
+    },
+    "联想": {
+        "url": "https://talent.lenovo.com.cn/position?projectType=2",
+        "selectors": {
+            "job_selector": "//div[@class='list_item_info']",
+            "job_title": ".//div[@class='list_item_title']/span[1]",
+            "job_location": ".//div[@class='list_item_map']/span[1]",
+            "job_type": ".//div[@class='list_item_type']/span[1]",
+            "job_department": ".//div[@class='list_item_type']/span[last()]",
+            "job_content": ".//div[@class='list_item_type']/span[3]",
+            "next_button": "//button[@class='btn-next' and @aria-disabled='false']"
+        }
+    },
+    "美的": {
+        "url": "https://careers.midea.com/schoolOut/post",
+        "selectors": {
+            "job_selector": "//div[@class='css-346ixz post-card-item']",
+            "job_title": ".//span[@class='card-name']",
+            "job_location": ".//div[@class='css-1ab2u83 over-hidden css-1cvxpvr card-mid_city']",
+            "job_type": ".//div[@class='card-mid']/span[2]",
+            "job_department": ".//div[@class='card-mid']/span[1]",
+            "job_content": ".//div[@class='card-bottom']",
+            "next_button": "//li[.//i[contains(@class, 'anticon') and contains(@class, 'anticon-right')]]",
+            "external_button": "//li[contains(text(), '实习生招聘')]"
+        }
+    },
+    "快手": {
+        "url": "https://campus.kuaishou.cn/recruit/campus/e/#/campus/jobs?positionNatureCode=intern",
+        "selectors": {
+            "job_selector": "//div[@class='content']",
+            "job_title": ".//div[@class='name text-overflow-ellipsis']",
+            "job_location": ".//span[@class='work-location']",
+            "job_type": ".//span[@class='position-nature']",
+            "job_department": ".//span[@class='position-category']",
+            "job_content": ".//span[@class='position-category']",
+            "next_button": "//li[contains(@class, 'ant-pagination-next') and not(@aria-disabled='true')]//button[contains(@class, 'ant-pagination-item-link')]"        }
+    }
+}
