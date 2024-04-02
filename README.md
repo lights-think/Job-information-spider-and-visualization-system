@@ -9,9 +9,9 @@ This system is a comprehensive solution designed to aggregate and display job ma
 ## 主要特性 Key Features
 
 - **数据收集 Data Collection**: 使用Python自动化网页爬虫脚本从多个在线门户收集职位列表和详细信息。
-- **Web应用 Web Application**: 基于Flask的界面，允许用户无缝查询和与收集的数据进行交互。
-- **数据可视化 Data Visualization**: 集成Pyecharts来创建交互式图表，直观表示工作市场分析。
-- **数据库管理 Database Management**: 利用SQLite3高效地存储、组织和访问工作数据。
+- **Web应用 Web Application**: 基于Flask的界面，允许用户无缝查询和与收集的数据进行交互。(todo)
+- **数据可视化 Data Visualization**: 集成Pyecharts来创建交互式图表，直观表示工作市场分析。(todo)
+- **数据库管理 Database Management**: 利用SQLite3高效地存储、组织和访问工作数据。(todo)
 
 ## 使用的技术 Technologies Used
 
